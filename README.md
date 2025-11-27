@@ -1,9 +1,9 @@
 # Self-MSNet
-This is the source code for Self-Supervised Multi-Scale Uniform Motion Deblurring via Alternating Optimization.
+This is the source code for "Self-Supervised Multi-Scale Uniform Motion Deblurring via Alternating Optimization".
 
 
 # Overview:
-<img width="2979" height="1790" alt="image" src="https://github.com/user-attachments/assets/686d3da2-2bc3-4ed7-ad27-9469e89a5c92" />
+<img width="1331" height="800" alt="image" src="https://github.com/user-attachments/assets/686d3da2-2bc3-4ed7-ad27-9469e89a5c92" />
 
 
 # Abstract:
