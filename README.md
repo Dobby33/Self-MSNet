@@ -30,15 +30,22 @@ python main.py --data_set “kohler”
 
 # If you like this work, please cite:
 @article{GUO2025112774,
+
 title = {Self-Supervised Multi-Scale Uniform Motion Deblurring via Alternating Optimization},
+
 author = {Lening Guo and Jing Yu and Ning Zhang and Chuangbai Xiao},
+
 journal = {Pattern Recognition},
+
 pages = {112774},
+
 year = {2025},
+
 issn = {0031-3203},
+
 doi = {https://doi.org/10.1016/j.patcog.2025.112774},
-url = {https://www.sciencedirect.com/science/article/pii/S0031320325014372}
-}
+
+url = {https://www.sciencedirect.com/science/article/pii/S0031320325014372}}
 
 # References:
 [1] W.-S. Lai, J.-B. Huang, Z. Hu, N. Ahuja, M. Yang, A comparative study for single image blind deblurring, in: IEEE Conf. Comput. Vis. Pattern Recog., IEEE, 2016.
