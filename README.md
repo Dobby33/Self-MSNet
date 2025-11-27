@@ -6,5 +6,41 @@ Blind image deblurring is a challenging low-level vision task that involves esti
 
 # Dependencies:
 Pytorch: 1.8.0
+
 Cuda: 10.1
+
 Python: 3.7
+
+# Preparation:
+conda create -n selfmsnet python=3.7
+
+conda activate selfmsnet
+
+# Datasets:
+Lai et al’s dataset[1] can be downloaded from: http://vllab.ucmerced.edu/˜wlai24/cvpr16_deblur_study.
+
+Kohler et al’s dataset[2] can be downloaded from:  http://webdav.is.mpg.de/pixel/benchmark4camerashake.
+
+# Run:
+Please download the blurry images and put them in the corresponding folder named ‘datasets/lai’ or ‘datasets/kohler’. Run the following codes for motion deblurring, and the deblurred images will be saved in the ‘results’ folder.
+
+python main.py --data_set “lai”
+
+python main.py --data_set “kohler”
+
+# If you like this work, please cite:
+@article{GUO2025112774,
+title = {Self-Supervised Multi-Scale Uniform Motion Deblurring via Alternating Optimization},
+author = {Lening Guo and Jing Yu and Ning Zhang and Chuangbai Xiao},
+journal = {Pattern Recognition},
+pages = {112774},
+year = {2025},
+issn = {0031-3203},
+doi = {https://doi.org/10.1016/j.patcog.2025.112774},
+url = {https://www.sciencedirect.com/science/article/pii/S0031320325014372}
+}
+
+# References:
+[1] W.-S. Lai, J.-B. Huang, Z. Hu, N. Ahuja, M. Yang, A comparative study for single image blind deblurring, in: IEEE Conf. Comput. Vis. Pattern Recog., IEEE, 2016.
+
+[2] R. Köhler, M. Hirsch, B. Mohler, B. Schölkopf, S. Harmeling, Recording and playback of camera shake: Benchmarking blind deconvolution with a real-world database, in: Eur. Conf. Comput. Vis., Springer, Berlin, Heidelberg, 2012.
