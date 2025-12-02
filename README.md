@@ -48,6 +48,8 @@ author = {Lening Guo and Jing Yu and Ning Zhang and Chuangbai Xiao},
 
 journal = {Pattern Recognition},
 
+volume = {173},
+
 pages = {112774},
 
 year = {2025},
