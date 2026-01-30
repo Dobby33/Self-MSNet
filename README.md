@@ -34,9 +34,9 @@ Kohler et al’s dataset[2] can be downloaded from:  http://webdav.is.mpg.de/pix
 Please download the blurry images and put them in the corresponding folder named ‘datasets/lai’ or ‘datasets/kohler’.
 Run the following codes for motion deblurring, and the deblurred images will be saved in the ‘results’ folder.
 
-python main.py --data_set “lai”
+python main.py --data_set lai
 
-python main.py --data_set “kohler”
+python main.py --data_set kohler
 
 
 # If you like this work, please cite:
