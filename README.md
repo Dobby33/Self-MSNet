@@ -31,7 +31,7 @@ Kohler et al’s dataset[2] can be downloaded from:  http://webdav.is.mpg.de/pix
 
 
 # Run:
-Please download the blurry images and put them in the corresponding folder named ‘datasets/lai’ or ‘datasets/kohler’.
+Move the input blurred images to the corresponding folder named ‘datasets/lai’ or ‘datasets/kohler’.
 
 Run the following commands for motion deblurring. Use **--model_name** to select either **Self_MSNet** (our full model *Self-MSNet*) or **Self_MSNet_S** (the single-scale variant *Self-MSNet-S*). Deblurred results will be saved to the ‘results/’ directory.
 
