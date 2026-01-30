@@ -33,11 +33,11 @@ Kohler et al’s dataset[2] can be downloaded from:  http://webdav.is.mpg.de/pix
 # Run:
 Please download the blurry images and put them in the corresponding folder named ‘datasets/lai’ or ‘datasets/kohler’.
 
-Run the following commands for motion deblurring. Use **--model_name** to select either Self-MSNet (full model) or Self-MSNet-S (single-scale variant). Deblurred results will be saved to the ‘results/’ directory.
+Run the following commands for motion deblurring. Use **--model_name** to select either **Self_MSNet** (our full model *Self-MSNet*) or **Self_MSNet_S** (the single-scale variant *Self-MSNet-S*). Deblurred results will be saved to the ‘results/’ directory.
 
-python main.py --data_set lai --model_name Self-MSNet
+python main.py --data_set lai --model_name Self_MSNet
 
-python main.py --data_set kohler --model_name Self-MSNet
+python main.py --data_set kohler --model_name Self_MSNet
 
 
 # If you like this work, please cite:
@@ -53,7 +53,7 @@ volume = {173},
 
 pages = {112774},
 
-year = {2025},
+year = {2026},
 
 issn = {0031-3203},
 
@@ -63,6 +63,16 @@ url = {https://www.sciencedirect.com/science/article/pii/S0031320325014372}}
 
 
 # References:
-[1] W.-S. Lai, J.-B. Huang, Z. Hu, N. Ahuja, M. Yang, A comparative study for single image blind deblurring, in: IEEE Conf. Comput. Vis. Pattern Recog., IEEE, 2016.
+[1] LAI W S, HUANG J B, HU Z, et al. A comparative study for single image blind deblurring[C]//IEEE Conf. Comput. Vis. Pattern Recog. IEEE, 2016: 1701-1709.
 
-[2] R. Köhler, M. Hirsch, B. Mohler, B. Schölkopf, S. Harmeling, Recording and playback of camera shake: Benchmarking blind deconvolution with a real-world database, in: Eur. Conf. Comput. Vis., Springer, Berlin, Heidelberg, 2012.
+[2] KÖHLER R, HIRSCH M, MOHLER B, et al. Recording and playback of camera shake: Benchmarking blind deconvolution with a real-world database[C]//Eur. Conf. Comput. Vis. Berlin, Heidelberg: Springer, 2012: 27-40.
+
+# Acknowledgements:
+This work builds upon the foundational contributions of:
+
+- [1] REN D, ZHANG K, WANG Q, et al. Neural blind deconvolution using deep priors[C]//IEEE Conf. Comput. Vis. Pattern Recog. 2020: 3341-3350.
+
+- [2] BAI Y, YU J, LI Y, et al. Deep prior-based blind image deblurring[J]. Acta Electronica Sinica, 2023, 51(4): 1050-1067.
+
+- [3] CHO S J, JI S W, HONG J P, et al. Rethinking coarse-to-fine approach in single image deblurring[C]//Int. Conf. Comput. Vis. 2021: 4641-4650.
+
