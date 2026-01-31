@@ -70,9 +70,9 @@ url = {https://www.sciencedirect.com/science/article/pii/S0031320325014372}}
 # Acknowledgements:
 This work builds upon the foundational contributions of:
 
-- [1] REN D, ZHANG K, WANG Q, et al. Neural blind deconvolution using deep priors[C]//IEEE Conf. Comput. Vis. Pattern Recog. 2020: 3341-3350.
+- REN D, ZHANG K, WANG Q, et al. Neural blind deconvolution using deep priors[C]//IEEE Conf. Comput. Vis. Pattern Recog. 2020: 3341-3350.
 
-- [2] BAI Y, YU J, LI Y, et al. Deep prior-based blind image deblurring[J]. Acta Electronica Sinica, 2023, 51(4): 1050-1067.
+- BAI Y, YU J, LI Y, et al. Deep prior-based blind image deblurring[J]. Acta Electronica Sinica, 2023, 51(4): 1050-1067.
 
-- [3] CHO S J, JI S W, HONG J P, et al. Rethinking coarse-to-fine approach in single image deblurring[C]//Int. Conf. Comput. Vis. 2021: 4641-4650.
+- CHO S J, JI S W, HONG J P, et al. Rethinking coarse-to-fine approach in single image deblurring[C]//Int. Conf. Comput. Vis. 2021: 4641-4650.
 
