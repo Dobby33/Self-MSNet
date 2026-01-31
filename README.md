@@ -40,7 +40,7 @@ python main.py --data_set lai --model_name Self_MSNet
 python main.py --data_set kohler --model_name Self_MSNet
 
 
-# If you like this work, please cite:
+# If you use this code in your research, please cite:
 @article{GUO2025112774,
 
 title = {Self-Supervised Multi-Scale Uniform Motion Deblurring via Alternating Optimization},
